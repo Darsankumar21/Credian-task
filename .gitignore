@@ -1,0 +1,36 @@
+# .gitignore file for Node.js projects
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules/
+
+# Build artifacts
+build/
+dist/
+.next/ 
+
+# Test coverage directory
+coverage/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# Miscellaneous
+npm-debug.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
